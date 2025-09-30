@@ -3,10 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tráfego Dashboard</title>
+    <title>Dashboard de Monitoramento de Redes</title>
+    <!-- Incluindo Tailwind CSS via CDN para o design -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configuração de fonte e estilo de fundo criativo -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+      body {
+        font-family: 'Inter', sans-serif;
+        /* Gradiente sutil para um visual mais profissional e moderno */
+        background: linear-gradient(135deg, #f0f4f8 0%, #e2e8f0 100%);
+      }
+    </style>
   </head>
   <body>
+    <!-- Este é o ponto de montagem do seu aplicativo React -->
     <div id="root"></div>
+    <!-- O Vite injeta o seu main.jsx/main.tsx aqui -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
